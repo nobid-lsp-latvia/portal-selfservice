@@ -1,0 +1,239 @@
+{
+  "title": {
+    "prefix": "",
+    "fullName": "NOBID EUDIW",
+    "subheader": "Digitālā identifikācija un personīgais digitālais maks",
+    "shortName": "NOBID EUDIW"
+  },
+  "shell": {
+    "notifications": {
+      "logOut": "Jūsu sesija ir veiksmīgi pabeigta",
+      "unknownState": "Notika kļūda lietotāja statusa apstrādē",
+      "sessionContinued": "Sesija veiksmīgi pagarināta",
+      "sessionContinuedFailed": "Sesijas pagarināšana nav izdevusies",
+      "sessionEndingSoon": "Jūsu sesija drīz beigsies"
+    },
+    "shell": {
+      "defaultBack": "Atpakaļ",
+      "logOut": "Iziet",
+      "openAlerts": "Atvērt sarakstu",
+      "openNavbar": "Atvērt izvēlni",
+      "helpTitle": "Palīdzība",
+      "alertsTitle": "Paziņojumi",
+      "languagesTitle": "Valodu izvēle",
+      "contextPersonTitle": "Saistīto personu dati",
+      "close": "Aizvērt",
+      "contextPersonsLabel": "Izvēlēties personu",
+      "contextPersonsOwnData": "Skatīt manus datus",
+      "alternativeProfilesLabel": "Izvēlieties alternatīvu profilu",
+      "contextPersonsButtonLabel": "Konteksta personas",
+      "alternativeProfilesButtonLabel": "Alternatīvie profili",
+      "idleModalLabel": "Tuvojas sesijas beigas",
+      "idleModalPrimaryLabel": "Turpināt darbu",
+      "idleModalSecondaryLabel": "Beigt darbu",
+      "descriptionMinutes": "{'Līdz sesijas beigām ir palikušas {count} minūtes'}",
+      "descriptionMinutesSmall": "{'un {count} sekundes'}",
+      "idleDescription": "{'Līdz sesijas beigām ir palikušas {count} sekundes'}",
+      "themeTitle": "Noformējuma izvēle",
+      "themeAuto": "Automātiskais režīms",
+      "themeLight": "Gaišais režīms",
+      "themeDark": "Tumšais režīms",
+      "themeContrast": "Kontrastainais režīms",
+      "animations": "Samazināt kustības",
+      "fonts": "Iekārtas fonti",
+      "confirmModalSecondaryDefaultLabel": "Nē",
+      "confirmModalPrimaryDefaultLabel": "Jā",
+      "previousAlertTitle": "Iepriekšējais paziņojums",
+      "nextAlertTitle": "Nākamais paziņojums",
+      "userTitle": "Lietotājs",
+      "menu": "Izvēlne",
+      "showAllLabel": "Vairāk",
+      "megaMenuTitle": "Lietotnes"
+    },
+    "footer":{
+      "download": "Lejupielādēt NOBID EUDIW"
+    },
+    "logOut": {
+      "title": "Iziet",
+      "description": "Vai tiešām vēlaties iziet?",
+      "yes": "Jā",
+      "no": "Nē"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": "NOBID EUDIW",
+      "buttons": {
+        "loginAuthorized": "Iet uz sākumu",
+        "loginUnauthorized": "Ienākt"
+      }
+    },
+    "sessionEnded": {
+      "title": "Jūsu sesija ir beigusies",
+      "description": "Sesijas atvēlētais laiks ir beidzies. Lai turpinātu darbu, ienāciet sistēmā atkārtoti"
+    },
+    "dashboard": {
+      "title": "Sākums",
+      "activateTitle": "Maka aktivizēšana",
+      "activateDescription": "Aktivizējiet maku, izmantojot QR kodu NOBID EUDIW lietotnē.",
+      "documentTitle": "Dokumentu saraksts",
+      "documentDescription": "Saraksts ar pieejamiem dokumentiem, kurus var pievienot savam makam.",
+      "active": {
+        "title": "Maks ir aktīvs",
+        "description": "Jūsu digitālais maks ir aktivizēts! Droši izmantojiet to tiešsaistes pakalpojumiem un digitālo dokumentu uzglabāšanai!",
+        "label": "Aktivizēts"
+      }
+    },
+    "activate": {
+      "title": "Maka aktivizēšana",
+      "firstText": "Digitālās identitātes maks vienkāršos jūsu dzīvi un nodrošinās, ka jūsu dati paliek droši un privāti.",
+      "secondText": "Lai aktivizētu savu maku:",
+      "stepOne": "1. atveriet \"NOBID EUDIW\" lietotni,",
+      "stepTwo": "2. dodieties uz sadaļu \"Skenēt QR kodu\",",
+      "stepThree": "3. noskenējiet zemāk redzamo QR kodu,",
+      "stepFour": "4. pēc QR koda skenēšanas verifikācijas kods tiks nosūtīts uz jūsu e-pastu ({email}). Ievadiet šo kodu lietotnē.",
+      "loaderTitle": "Notiek QR koda ģenerēšana",
+      "loaderDescription": "Lūdzu, uzgaidiet",
+      "error": "Neizdevās ielādēt QR kodu",
+      "errorNoDocument" : "Šāds dokuments jums nav pieejams",
+      "generateQr": "Ģenerēt QR kodu",
+      "didntReceive": "Neizdevās aktivizēt maku?",
+      "generateAgain": "Ģenerēt kodu atkārtoti"
+
+    },
+    "login": {
+      "title": "Autorizācija"
+    },
+    "privacy":{
+      "title": "Konfidencialitātes politika",
+      "content": "Konfidencialitātes politikas teksts",
+      "close": "Aizvērt"
+    },
+    "help":{
+      "title": "Palīdzība"
+    },
+    "userAgreement": {},
+    "users": {},
+    "error": {
+      "goBack": "Atgriezties atpakaļ",
+      "goHome": "Atgriezties uz sākumu",
+      "title": "Notika negaidīta kļūda"
+    },
+    "notFound":{
+      "title": "Lapa nav atrasta",
+      "description": "Pārbaudiet, vai lapas adrese ir pareiza un mēģiniet vēlreiz, vai atgriezieties uz sākumlapu"
+    },
+    "auth": {
+      "title": "Notiek apstrāde",
+      "description": "Notiek apstrāde. Lūdzu, uzgaidiet!",
+      "errors": {
+        "unknownTitle": "Nezināma autorizācijas kļūda",
+        "unknownDescription": "Mēģiniet veikt atkārtotu autorizāciju.",
+        "blockedTitle": "Lietotājs ir bloķēts",
+        "blockedDescription": "Sazinieties ar sistēmas administratoru.",
+        "invalidRightsTitle": "Jums nav piešķirtas tiesības lietot šo sistēmu",
+        "invalidRightsDescription": "Sazinieties ar sistēmas administratoru.",
+        "invalidRequestTitle": "Kļūdains autorizācijas pieprasījums",
+        "invalidRequestDescription": "Mēģiniet veikt atkārtotu autorizāciju."
+      }
+    },
+    "registration":{
+      "phone": {
+        "title": "Tālruņa numura reģistrācija",
+        "firstText": "Mums ir nepieciešams jūsu tālruņa numurs, lai nosūtītu jums drošības paziņojumus un palīdzētu ārkārtas situācijās (piemēram, ja zaudējat piekļuvi makam).",
+        "secondText": "Uz šo tālruņa numuru tiks nosūtīts vienreizējs verifikācijas kods.",
+        "inputLabel": "Tālruņa numurs",
+        "agreementLabel": "Es piekrītu izmantot savu tālruņa numuru saskaņā ar",
+        "privacyPolicy": "konfidencialitātes politiku.",
+        "button": "Izmantot šo numuru",
+        "error": "Notika kļūda. Mēģiniet vēlreiz"
+      },
+      "phoneVerification":{
+        "title": "Tālruņa numura verifikācija",
+        "firstText": "Ievadiet verifikācijas kodu, kas tika nosūtīts uz jūsu numuru",
+        "secondText": "Jums vajadzētu saņemt īsziņu ar verifikācijas kodu 3 minūšu laikā.",
+        "inputLabel": "Verifikācijas kods",
+        "button": "Turpināt",
+        "wrongCode": "Nepareizs kods. Ievadiet kodu vēlreiz",
+        "correctCode": "Tālruņa numurs veiksmīgi verificēts",
+        "noTries": "Beigušies mēģinājumi. Mēģiniet vēlreiz",
+        "sendAgain": "Nosūtīt kodu atkārtoti",
+        "sentAgain": "Kods nosūtīts atkārtoti!",
+        "didntReceive": "Nesaņēmāt kodu?"
+      },
+      "email":{
+        "title": "E-pasta adreses reģistrācija",
+        "firstText": "Mums ir nepieciešama jūsu e-pasta adrese, lai nosūtītu jums drošības paziņojumus un palīdzētu ārkārtas situācijās (piemēram, ja zaudējat piekļuvi makam).",
+        "secondText": "Uz šo e-pasta adresi tiks nosūtīts vienreizējs verifikācijas kods.",
+        "inputLabel": "E-pasta adrese",
+        "agreementLabel": "Es piekrītu izmantot savu e-pasta adresi saskaņā ar",
+        "privacyPolicy": "konfidencialitātes politiku.",
+        "placeholder": "{'vārds@domēns.lv'}",
+        "button": "Izmantot šo e-pasta adresi",
+        "error": "Notika kļūda. Mēģiniet vēlreiz"
+      },
+      "emailVerification":{
+        "title": "E-pasta adreses verifikācija",
+        "firstText": "Ievadiet verifikācijas kodu, kas tika nosūtīts uz jūsu e-pasta adresi",
+        "secondText": "Jums vajadzētu saņemt e-pastu ar verifikācijas kodu 3 minūšu laikā.",
+        "inputLabel": "Verifikācijas kods",
+        "button": "Turpināt",
+        "wrongCode": "Nepareizs kods. Ievadiet kodu vēlreiz",
+        "correctCode": "E-pasta adrese veiksmīgi verificēta",
+        "noTries": "Beigušies mēģinājumi. Mēģiniet vēlreiz",
+        "sendAgain": "Nosūtīt kodu atkārtoti",
+        "sentAgain": "Kods nosūtīts atkārtoti!",
+        "didntReceive": "Nesaņēmāt kodu?"
+      }
+    },
+    "documents":{
+      "title": "Dokumentu saraksts"
+    },
+    "document":{
+      "title": "Vadītāja apliecība",
+      "description": " Lai pievienotu dokumentu savam makam, atveriet \"NOBID EUDIW\" lietotni, dodieties uz sadaļu \"Skenēt QR kodu\" un noskenējiet zemāk redzamo QR kodu.",
+      "documentIssuer": "Dokumenta sniedzējs",
+      "issuerInfo" : "Sniedzēja informācija",
+      "website": "Mājaslapa",
+      "email": "E-pasts",
+      "phone": "Informācijas tālrunis",
+      "address": "Adrese",
+      "number": "Reģistrācijas numurs",
+      "diploma": {
+        "title":   "Diploms",
+        "issuer": "Rīgas Tehniskā universitāte",
+        "website": "www.rtu.lv",
+        "email": "{'rtu@rtu.lv'}",
+        "phone": "+371 67089 333",
+        "address": "Ķīpsalas iela 6A, Rīga, LV-1048",
+        "number": "90000068977"
+      },
+      "drivingLicense": {
+        "title": "Vadītāja apliecība",
+        "issuer": "VAS \"Ceļu satiksmes drošības direkcija\"",
+        "website": "www.csdd.lv",
+        "email": "{'csdd@csdd.gov.lv'}",
+        "phone": "+371 67025 777",
+        "address": "Sergeja Eizenšteina iela 6, Rīga, LV-1079",
+        "number": "40003345734"
+      },
+      "secondText": "Lai pievienotu dokumentu savam makam:",
+      "stepOne": "1. atveriet \"NOBID EUDIW\" lietotni,",
+      "stepTwo": "2. dodieties uz sadaļu \"Skenēt QR kodu\",",
+      "stepThree": "3. noskenējiet zemāk redzamo QR kodu,",
+      "stepFour": "4. pēc QR koda skenēšanas verifikācijas kods tiks nosūtīts uz jūsu e-pastu ({email}). Ievadiet šo kodu lietotnē.",
+      "generateQr": "Ģenerēt QR kodu",
+      "didntReceive": "Neizdevās pievienot dokumentu?",
+      "generateAgain": "Ģenerēt kodu atkārtoti"
+    }
+  },
+  "errors": {
+    "forbidden": "Jums nav tiesību veikt šo darbību!",
+    "loadFailed": "Neizdevās ielādēt datus",
+    "403":{
+        "title": "Pietrūkst tiesību, lai piekļūtu šai lapai",
+        "description": "Pieeja liegta! Lai piekļūtu šai lapai, nepieciešamas papildu tiesības."
+    },
+    "cancel": "Autentifikācija atcelta"
+  }
+}

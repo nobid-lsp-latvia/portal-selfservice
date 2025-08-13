@@ -1,0 +1,241 @@
+{
+    "title": {
+      "prefix": "",
+      "fullName": "NOBID EUDIW",
+      "subheader": "Digital identification and personal digital wallet",
+      "shortName": "NOBID EUDIW"
+    },
+    "shell": {
+      "notifications": {
+        "logOut": "Your session has been successfully ended",
+        "unknownState": "An error occurred while processing the user status",
+        "sessionContinued": "The session has been successfully extended",
+        "sessionContinuedFailed": "Failed to extend the session",
+        "sessionEndingSoon": "Your session will end soon"
+      },
+      "shell": {
+        "defaultBack": "Back",
+        "logOut": "Log out",
+        "openAlerts": "Open list",
+        "openNavbar": "Open menu",
+        "helpTitle": "Help",
+        "alertsTitle": "Notifications",
+        "languagesTitle": "Language selection",
+        "contextPersonTitle": "Associated person data",
+        "close": "Close",
+        "contextPersonsLabel": "Select a person",
+        "contextPersonsOwnData": "View my data",
+        "alternativeProfilesLabel": "Choose an alternative profile",
+        "contextPersonsButtonLabel": "Context persons",
+        "alternativeProfilesButtonLabel": "Alternative profiles",
+        "idleModalLabel": "Session ending soon",
+        "idleModalPrimaryLabel": "Continue working",
+        "idleModalSecondaryLabel": "End session",
+        "descriptionMinutes": "{'Remaining time till session ends is {count} minutes'}",
+        "descriptionMinutesSmall": "{'and {count} seconds'}",
+        "idleDescription": "{'{count} seconds remaining until session ends'}",
+        "themeTitle": "Theme selection",
+        "themeAuto": "Automatic mode",
+        "themeLight": "Light mode",
+        "themeDark": "Dark mode",
+        "themeContrast": "High contrast mode",
+        "animations": "Reduce motion",
+        "fonts": "System fonts",
+        "confirmModalSecondaryDefaultLabel": "No",
+        "confirmModalPrimaryDefaultLabel": "Yes",
+        "previousAlertTitle": "Previous notification",
+        "nextAlertTitle": "Next notification",
+        "userTitle": "User",
+        "menu": "Menu",
+        "showAllLabel": "More",
+        "megaMenuTitle": "Applications"
+      },
+      "footer":{
+        "download": "Download NOBID EUDIW"
+      },
+      "logOut": {
+        "title": "Log out",
+        "description": "Are you sure you want to log out?",
+        "yes": "Yes",
+        "no": "No"
+      }
+    },
+    "pages": {
+      "home": {
+        "title": "NOBID EUDIW",
+        "buttons": {
+          "loginAuthorized": "Go to the beginning",
+          "loginUnauthorized": "Log in"
+        }
+      },
+      "sessionEnded": {
+        "title": "Your session has ended",
+        "description": "The allocated session time has ended. To continue, please log in again."
+      },
+      "dashboard": {
+        "title": "Dashboard",
+        "activateTitle": "Wallet activation",
+        "activateDescription": "Activate the wallet using the QR code in the NOBID EUDIW app.",
+        "documentTitle": "Document List",
+        "documentDescription": "A list of available documents that can be added to your wallet.",
+        "active": {
+          "title": "Wallet is Active",
+          "description": "Your digital wallet has been activated! Feel free to use it for online services and storing digital documents!",
+          "label": "Activated"
+        }
+      },
+      "activate": {
+        "title": "Wallet activation",
+        "firstText": "A digital identity wallet will simplify your life and ensure that your data stays safe and private.",
+        "secondText": "To activate your wallet:",
+        "stepOne": "1. open the \"NOBID EUDIW\" app,",
+        "stepTwo": "2. go to the \"Scan QR code\" section,",
+        "stepThree": "3. scan the QR code below,",
+        "stepFour": "4. after you scan it, we will send a confirmation code to your email ({email}). Enter this code when asked by the app.",
+        "loaderTitle": "Generating QR code",
+        "loaderDescription": "Please wait",
+        "error": "Failed to load QR code",
+        "errorNoDocument": "This document is not available to you.",
+        "generateQr": "Generate QR code",
+        "didntReceive": "Failed to activate wallet?",
+        "generateAgain": "Generate code again"
+      },
+      "login": {
+        "title": "Autorizācija"
+      },
+      "privacy": {
+        "title": "Privacy policy",
+        "content" : "Privacy policy content",
+        "close": "Close"
+      },
+      "help":{
+        "title": "Help"
+      },
+      "userAgreement": {},
+      "users": {},
+      "error": {
+        "goBack": "Go back",
+        "goHome": "Return to home",
+        "title": "An unexpected error occurred"
+      },
+      "notFound": {
+        "title": "Page Not Found",
+        "description": "Check if the page address is correct and try again, or return to the homepage"
+      },
+      "auth": {
+        "title": "Processing",
+        "description": "Processing. Please wait!",
+        "errors": {
+          "unknownTitle": "Unknown authorization error",
+          "unknownDescription": "Try re-authorizing.",
+          "blockedTitle": "User is blocked",
+          "blockedDescription": "Contact the system administrator.",
+          "invalidRightsTitle": "You do not have permission to use this system",
+          "invalidRightsDescription": "Contact the system administrator.",
+          "invalidRequestTitle": "Invalid authorization request",
+          "invalidRequestDescription": "Try re-authorizing."
+        }
+      },
+      "registration":{
+        "phone": {
+          "title": "Phone number registration",
+          "firstText": "We need your phone number to send you security notifications and assist in emergencies (e.g., if you lose access to your wallet).",
+          "secondText": "A one-time verification code will be sent to this phone number.",
+          "inputLabel": "Phone number",
+          "agreementLabel": "I agree to use my phone number in accordance with the",
+          "privacyPolicy": "privacy policy.",
+          "button": "Use this number",
+          "error": "An error occurred. Try again"
+        },
+        "phoneVerification": {
+          "title": "Phone number verification",
+          "firstText": "Enter the verification code that was sent to your number",
+          "secondText": "You should receive a message with the verification code within 3 minutes.",
+          "inputLabel": "Verification code",
+          "button": "Continue",
+          "wrongCode": "Incorrect code. Enter the code again",
+          "correctCode": "Phone number successfully verified",
+          "noTries": "No more tries. Try again",
+          "sendAgain": "Resend code",
+          "sentAgain": "Code sent!",
+          "didntReceive": "Didn't receive the code?"
+        },
+        "email": {
+          "title": "Email address registration",
+          "firstText": "We need your email address to send you security notifications and assist in emergencies (e.g., if you lose access to your wallet).",
+          "secondText": "A one-time verification code will be sent to this email address.",
+          "inputLabel": "Email address",
+          "agreementLabel": "I agree to use my email address in accordance with the",
+          "privacyPolicy": "privacy policy.",
+          "placeholder": "{'name@domain.lv'}",
+          "button": "Use this email address",
+          "error": "An error occurred. Try again"
+        },
+        "emailVerification": {
+          "title": "Email address verification",
+          "firstText": "Enter the verification code that was sent to your email address",
+          "secondText": "You should receive an email with the verification code within 3 minutes.",
+          "inputLabel": "Verification code",
+          "button": "Continue",
+          "wrongCode": "Incorrect code. Enter the code again",
+          "correctCode": "Email address successfully verified",
+          "noTries": "No more tries. Try again",
+          "sendAgain": "Resend code",
+          "sentAgain": "Code sent!",
+          "didntReceive": "Didn't receive the code?"
+        }
+      },
+      "documents":{
+        "title": "Document list"
+      },
+      "document" :{
+        "title": "Driver's license",
+        "description": "To add the document to your wallet, open the 'NOBID EUDIW' app, go to the 'Scan QR Code' section, and scan the QR code below.",
+        "documentIssuer": "Document issuer",
+        "issuerInfo": "Issuer information",
+        "website": "Website",
+        "email": "Email",
+        "phone": "Information phone",
+        "address": "Address",
+        "number": "Registration number",
+        "diploma": {
+          "title":   "Diploma",
+          "issuer": "Rīgas Tehniskā universitāte",
+          "website": "www.rtu.lv",
+          "email": "{'rtu@rtu.lv'}",
+          "phone": "+371 67089 333",
+          "address": "Ķīpsalas iela 6A, Rīga, LV-1048",
+          "number": "90000068977"
+        },
+        "drivingLicense": {
+          "title": "Driver's license",
+          "issuer": "VAS \"Ceļu satiksmes drošības direkcija\"",
+          "website": "www.csdd.lv",
+          "email": "{'csdd@csdd.gov.lv'}",
+          "phone": "+371 67025 777",
+          "address": "Sergeja Eizenšteina iela 6, Rīga, LV-1079",
+          "number": "40003345734"
+        },
+        "secondText": "To add this document your wallet:",
+        "stepOne": "1. open the \"NOBID EUDIW\" app,",
+        "stepTwo": "2. go to the \"Scan QR code\" section,",
+        "stepThree": "3. scan the QR code below,",
+        "stepFour": "4. after you scan it, we will send a confirmation code to your email ({email}). Enter this code when asked by the app.",
+        "loaderTitle": "Generating QR code",
+        "generateQr": "Generate QR code",
+        "didntReceive": "Failed to add document?",
+        "generateAgain": "Generate code again"
+      }
+      
+    },
+    "errors": {
+      "forbidden": "You do not have permission to perform this action!",
+      "loadFailed": "Failed to load data",
+      "403":{
+         "title": "Insufficient permissions to access this page",
+          "description": "Access denied! Additional permissions are required to access this page."
+      },
+      "cancel": "Authentication canceled"
+    }
+  }
+  
